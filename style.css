@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap');
+
+style.css
+html, body{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: skyblue;
+    padding: 40px;
+    text-align: center;
+    border-radius: 30px; 
+    margin-top: 30px;  
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    box-shadow: 20px 20px 6px -1px rgba(4, 162, 193, 0.59);
+}
+
+
+h1 {
+    font-size: 50px;
+    color: black;
+    margin-bottom: 0px;
+}
+
+
+header img {
+    border-radius: 100%;
+    width: 50%;
+    border: 7px solid #BDE3E7;
+}
+
+
+.content{
+    font-size: 25px;
+    max-width: 900px;
+    padding: 0 40px;
+    font-size: 20px;
+    margin:auto;
+}
+
+.about {
+    background-color: rgb(81, 193, 238);
+    padding: 70px;  
+    border-radius: 15px;
+    box-shadow: 20px 20px 6px -1px rgba(18, 114, 135, 0.59);
+    margin-bottom: 60px;
+}
+
+.ultimate {
+    background-color: rgb(51, 181, 232);
+    padding: 70px;  
+    border-radius: 15px;
+    box-shadow: 20px 20px 6px -1px rgba(3, 64, 78, 0.59);
+    margin-bottom: 60px;
+}
+
+img.big-image {
+    max-width: 100%;
+    width: 100%;   
+    height: 1000px;
+    border-radius: 20px;    
+    margin-bottom: 10px;
+    box-shadow: 20px 20px 6px -1px rgba(0, 34, 42, 0.59);
+}
+
+
+p.caption {
+    font-size: 20px;
+    color: lightblue;
+    font-style: italic;
+    margin-bottom: 60px;
+}
+
+.friends {
+    max-width: 900px;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.friends img {
+    width: 165px;
+    height: 165px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 150px;
+    border: 5px solid #BDE3E7;
+    justify-content: space-between;
+    display: flex;
+    box-shadow: 20px 10px 6px -1px rgba(0, 34, 42, 0.59);
+}
+
+.friends a {
+    text-decoration: none;
+    color: black;
+}
+
+.others {
+    font-size: 25px;
+    max-width: 900px;
+    padding: 0 40px;
+    font-size: 20px;
+    background-color: rgb(23, 173, 232);
+    list-style-type: none;
+    border-radius: 15px;
+    margin: auto;
+    padding: 70px;
+    box-shadow: 20px 20px 6px -1px rgba(1, 35, 43, 0.59);
+}
+
+.others a {
+    text-decoration: none;
+    color: blue;
+}
+
+footer {
+    margin: 40px 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-top: 0;
+    font-size: 20px;
+}
+
+.credits a {
+    text-decoration: none;
+    color:skyblue;
+}
+
+footer ul{
+    text-align:center;
+}
+
+footer ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.wrapper {
+    background-image: linear-gradient(to bottom, white, #3dbfdc,#0f7c97);
+}
